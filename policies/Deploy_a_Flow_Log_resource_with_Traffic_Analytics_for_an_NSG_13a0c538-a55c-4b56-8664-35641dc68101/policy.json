@@ -4,14 +4,6 @@
   "policyType": "Custom",
   "mode": "Indexed",
   "description": "Configures flow log for specific network security group. It will allow to log information about IP traffic flowing through an network security group. Flow log helps to identify unknown or undesired traffic, verify network isolation and compliance with enterprise access rules, analyze network flows from compromised IPs and network interfaces.",
-  "metadata": {
-   "version": "1.0.0",
-   "category": "Network",
-   "createdBy": "56e9bbac-613a-4340-a74a-eeacb79af297",
-   "createdOn": "2021-03-24T17:15:48.057421Z",
-   "updatedBy": "56e9bbac-613a-4340-a74a-eeacb79af297",
-   "updatedOn": "2021-03-24T18:36:20.1332141Z"
-  },
   "parameters": {
    "nsgRegion": {
     "type": "String",
@@ -193,8 +185,5 @@
     }
    }
   }
- },
- "id": "/subscriptions/b11918af-a87b-480e-ba88-369e9dadc5bf/providers/Microsoft.Authorization/policyDefinitions/13a0c538-a55c-4b56-8664-35641dc68101",
- "type": "Microsoft.Authorization/policyDefinitions",
- "name": "13a0c538-a55c-4b56-8664-35641dc68101"
+ }
 }
